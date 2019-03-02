@@ -106,8 +106,8 @@ img {
 
 #text {
     margin-right: 50px;
-    
-    
+    margin-left: 50px;
+    margin-bottom: 50px;
 }
 
 a {
@@ -221,7 +221,7 @@ form {
 }
 
 footer{
-    position: sticky;
+    position: static;
 }
 
 .container{
@@ -237,7 +237,7 @@ footer{
 }
 
 footer{
-    position: sticky;
+    position: static;
 }
 
 .container{
@@ -253,11 +253,11 @@ footer{
 }
 
 footer{
-    position: sticky;
+    position: static;
 }
 
 .container{
-    width: 500px;
+    width: 400px;
 }
 
 }
