@@ -4,33 +4,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
 
         <title> My Portfolio</title>
-
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Roboto+Condensed|Work+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
 
     </head>
     
-    <div class="wrapper">
-            <div class="header">
     
-                <h1 id="Name">Abraham Granillo</h1>
-                
-                <div class="links">
-                        
-                    <a href="index.html" id="About">About</a>
-                    <a href="portfolio.html" id="Portfolio">Portfolio</a>
-                    <a href="contact.html" id="Contact">Contact</a>
-                       
-                </div>   
-                            
-            </div>
-    </div>
             
             
     <body>
+        <div class="row header">
+            <div class="col-9">
+                <h2 id="Title">Abraham Granillo's Portfolio</h2>
+            </div>
+            
+
+            <ul class="nav col-3">
+        
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                
+            </ul>
+    
+        </div>
+
         <div class="container">
             
-            <section id="About"></section>
-            <h1>Contact</h1>
+           
+            <h1 class="Title">Contact</h1>
 
             <form>
                 <label for="fname"> Name</label> <br>
@@ -49,7 +58,7 @@
         </div>   
 
         <footer>
-            <p id="copyright">Copyright </p> 
+            <p>Designed and Developed by Abraham Granillo | © 2019 All rights reserved.</p> 
         </footer>
             
     </body>
