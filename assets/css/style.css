@@ -142,7 +142,7 @@ h1 {
     
 }
 
-#bio {
+.bio {
     margin: 30px 20px 10px 30px;
 }
 
@@ -177,7 +177,9 @@ footer {
     
 }
 
-
+#footerText{
+    margin-top: 10px;
+}
 
 
 
