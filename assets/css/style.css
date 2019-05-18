@@ -31,7 +31,7 @@ body {
 #Title{
     margin: 0;
     color: aliceblue;
-    font-size: 25px; 
+    font-size: 20px; 
     float: left;
     border: none;
     font-family: 'Roboto Condensed', sans-serif;
@@ -54,7 +54,7 @@ h1 {
 .nav-link{
     font-family: 'Roboto Condensed', sans-serif;
     color:aliceblue;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 
@@ -217,13 +217,12 @@ form {
 
 
 @media only screen and (max-width: 992px) {
-    .parallax-container .section {
-        position: absolute;
-        top: 40%;
+    #Title  {
+        font-size: 15px;
     }
-    #index-banner .section {
-        top: 10%;
-    }
+
+    .nav-link {
+        font-size: 15px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -241,16 +240,17 @@ form {
     }
 
     #Title  {
-        font-size: 20px;
-    }
-
-    .nav-link {
         font-size: 15px;
     }
 
+    .nav-link {
+        font-size: 10px;
+    }
+
     .card {
-        margin: 30px 20px 20px 0px;
+        margin: 20px 0px 20px 25px;
         border: none;
+        width: 15rem;
         
     }
 
@@ -258,12 +258,13 @@ form {
 
 @media only screen and (max-width: 480px) {
     .container{
-        width: 12rem;
+        width: 20rem;
         
     }
 
     .header{
         width: 100%;
+        margin: 0%;
         
     }
 
@@ -281,7 +282,7 @@ form {
     }
 
     .card {
-        margin: 10px 0px 20px 0px;
+        margin: 10px 0px 0px 0px;
         border: none;
         width: 10rem;
         
