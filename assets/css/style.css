@@ -59,7 +59,7 @@ h1 {
 
 
 .container{
-    width: 500px;
+    width: 800px;
     margin: auto;
     background-color: transparent;
     background-color: rgba(55, 76, 114, 0.349);
@@ -137,14 +137,14 @@ h1 {
 }
 
 #picprofile {
-    margin: 30px 20px 10px 30px;
+    margin: 30px 30px 10px 40px;
     float: left;
-    width: 30%;
+    width: 20%;
     
 }
 
 .bio {
-    margin: 30px 20px 10px 30px;
+    margin: 30px 40px 10px 40px;
 }
 
 #Title {
@@ -217,25 +217,16 @@ form {
 
 
 @media only screen and (max-width: 992px) {
-    #Title  {
-        font-size: 15px;
+   
+    .header{
+        width: 100%;
+        margin: 0%;
+        
     }
-
-    .nav-link {
-        font-size: 15px;
-}
 
 @media only screen and (max-width: 600px) {
     .container{
-        width: 300px;
-        margin: auto;
-        background-color: transparent;
-        background-color: rgba(55, 76, 114, 0.349);
-        margin-top: 20px;
-        clear:both;
-        overflow: auto;
-        margin-bottom: 40px;
-        color: aliceblue;
+        width: 10rem;
         
     }
 
@@ -246,17 +237,24 @@ form {
     .nav-link {
         font-size: 10px;
     }
+   
 
     .card {
         margin: 20px 0px 20px 25px;
         border: none;
-        width: 15rem;
+        width: 10rem;
+        
+    }
+
+    .header{
+        width: 100%;
+        margin: 0%;
         
     }
 
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 480px) {
     .container{
         width: 20rem;
         
@@ -282,9 +280,9 @@ form {
     }
 
     .card {
-        margin: 10px 0px 0px 0px;
+        margin: 30px 0px 0px 0px;
         border: none;
-        width: 10rem;
+        width: 15rem;
         
     }
 
