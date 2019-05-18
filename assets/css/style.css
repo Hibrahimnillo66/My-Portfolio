@@ -20,7 +20,7 @@ body {
     background-color:transparent;
     background-color: rgba(4, 5, 7, 0.527);
     padding: 10px;
-    overflow: hidden;
+    
     
     
 }
@@ -227,14 +227,60 @@ form {
 }
 
 @media only screen and (max-width: 600px) {
-    #index-banner .section {
-        top: 0;
+    .container{
+        width: 300px;
+        margin: auto;
+        background-color: transparent;
+        background-color: rgba(55, 76, 114, 0.349);
+        margin-top: 20px;
+        clear:both;
+        overflow: auto;
+        margin-bottom: 40px;
+        color: aliceblue;
+        
+    }
+
+    #Title  {
+        font-size: 20px;
+    }
+
+    .nav-link {
+        font-size: 15px;
+    }
+
+    .card {
+        margin: 30px 20px 20px 0px;
+        border: none;
+        
+    }
+
+
+
+@media only screen and (max-width: 480px) {
+    .container{
+        width: 200px;
+        margin: auto;
+        background-color: transparent;
+        background-color: rgba(55, 76, 114, 0.349);
+        margin-top: 20px;
+        clear:both;
+        overflow: auto;
+        margin-bottom: 40px;
+        color: aliceblue;
+        
+    }
+
+    .header{
+        width: 100%;
+        
+    }
+
+    #Title  {
+        font-size: 15px;
+    }
+
+    .nav-link {
+        font-size: 10px;
     }
 }
 
-#contact {
-    a {
-        text-decoration: none;
-        color: orangered;
-    }
-}
