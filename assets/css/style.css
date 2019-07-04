@@ -145,6 +145,7 @@ h1 {
 
 .bio {
     margin: 30px 40px 10px 40px;
+    font-size: 20px;
 }
 
 #Title {
@@ -172,7 +173,6 @@ footer {
     font-size: 15px;
     width: 100%;
     background-color: rgba(139, 181, 218, 0.479);
-    background-color: transparent;
     text-align: center;
     padding: 5px; 
     color: aliceblue;
@@ -212,8 +212,7 @@ form {
 
 
 .footer-distributed{
-    background-color: transparent;
-    background-color: #000000a8;
+    background-color: #000000ce;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
